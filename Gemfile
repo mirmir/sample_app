@@ -16,7 +16,7 @@ group :test do
   gem 'rspec-rails'
   gem 'webrat'
   gem 'autotest'
-  gem 'test-unit'
+  gem 'spork'
   gem 'autotest-notification'
 end
 
