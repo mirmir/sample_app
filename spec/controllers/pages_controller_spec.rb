@@ -16,4 +16,11 @@ describe PagesController do
     end
   end
 
+  describe "GET 'home' again" do
+    it "returns http success" do
+      get 'home'
+      response.should be_success
+    end
+  end
+
 end

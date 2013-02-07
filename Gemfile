@@ -12,8 +12,12 @@ group :development do
 end
 
 group :test do
-  gem 'rspec'
+  gem 'ZenTest', '=4.8.3'
+  gem 'rspec-rails'
   gem 'webrat'
+  gem 'autotest'
+  gem 'test-unit'
+  gem 'autotest-notification'
 end
 
 # Gems used only for assets and not required
